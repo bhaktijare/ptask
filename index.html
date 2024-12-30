@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #008080;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .places {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .place {
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .place img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .place h3 {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explore the World</h1>
+</header>
+
+<nav>
+    <a href="#destinations">Destinations</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    Discover Your Next Adventure
+</div>
+
+<section id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="places">
+        <div class="place">
+            <img src="https://via.placeholder.com/200" alt="Destination 1">
+            <h3>Paris</h3>
+            <p>The city of light and love, offering iconic landmarks like the Eiffel Tower and Louvre Museum.</p>
+        </div>
+        <div class="place">
+            <img src="https://via.placeholder.com/200" alt="Destination 2">
+            <h3>Tokyo</h3>
+            <p>A vibrant city blending traditional temples with modern skyscrapers and bustling streets.</p>
+        </div>
+        <div class="place">
+            <img src="https://via.placeholder.com/200" alt="Destination 3">
+            <h3>New York</h3>
+            <p>The city that never sleeps, featuring Times Square, Central Park, and Broadway.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are passionate about helping travelers explore the most beautiful and exciting places around the world. Our mission is to make travel easy and enjoyable for everyone.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: info@exploretheworld.com</p>
+    <p>Phone: +123 456 7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Explore the World. All rights reserved.</p>
+</footer>
+
+</body>
+</htm>
